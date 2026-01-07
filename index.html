@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+  <title>Bootstrap Navbar</title>
+  <!-- Bootstrap Font font-family -->
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Bootstrap CSS -->
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link href="./src/Css/style.css" rel="stylesheet" />
+</head>
+
+
+<body style="font-family: 'Exo 2', sans-serif;">
+  <!-------------------- Navbar Section ------------------- -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="./src/assest/Leadcrm Logo.png" alt="MyLogo" class="d-inline-block align-text-top" />
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-lg-center">
+          <li class="nav-item dropdown">
+            <a class="nav-link bold dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Product</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web Design</a></li>
+              <li><a class="dropdown-item" href="#">Development</a></li>
+              <li><a class="dropdown-item" href="#">SEO</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link bold" href="#">Pricing</a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Resource
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web Design</a></li>
+              <li><a class="dropdown-item" href="#">Development</a></li>
+              <li><a class="dropdown-item" href="#">SEO</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item bold dropdown">
+            <a class="nav-link bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Company
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web Design</a></li>
+              <li><a class="dropdown-item" href="#">Development</a></li>
+              <li><a class="dropdown-item" href="#">SEO</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item ms-lg-3">
+            <a class="btn text-white" href="#" style="background-color: #2D96BC; font-size: 12px;">
+              Get Your Free Account
+            </a>
+          </li>
+
+          <li class="nav-item ms-2">
+            <a class="btn bg-white" href="#">
+              <i class="bi bi-arrow-right" style="color: #2D96BC;"></i> <span style="color: #2D96BC; border: 1px solid #2D96BC; padding: 8px 26px;border-radius: 12px;">Login</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <!--------------------------- Hero Section ---------------------------- -->
+  <section class="hero-section text-center d-flex align-items-center heroContainer"
+    style="background-image: url('./src/assest/HeroImg_1.png'); ">
+    <div class="heroContainerImg"></div>
+    <div class="container position-relative" style="z-index: 1;">
+      <!-- Heading -->
+      <p class="blueborder"><img src="./src/assest/Frame.png" /> Thousands of Professional using LeadCRM</p>
+      <h6 class="display-4 fw-semibold text-dark">
+        LinkedIn CRM Integration <br>
+        Capture, Sync and Enrich in <Span class="blueTxt">Both Ways <img src="./src/assest/line_yellow.png"
+          style="margin-left: 23px" /></Span>
+      </h6>
+
+      <!-- Paragraph -->
+      <p class="lead mb-4 text-dark fw-semibold mx-auto" class="autoTxt">
+        Automatically sync LinkedIn prospects to your CRM and overlay existing CRM contacts on LinkedIn profiles.
+        Complete bi-directional integration with HubSpot, Salesforce, and Pipedrive.
+      </p>
+
+
+      <!-- Gradient Button -->
+      <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+        <a href="#" class="btn btn-lg fw-normal d-flex align-items-center workbtn"> Works with
+          <img src="./src/assest/gbtn_1.png" class="btn_round" />
+          <img src="./src/assest/gbtn_2.png" class="btn_round" />
+          <img src="./src/assest/gbtn_3.png" class="btn_round" />
+        </a>
+
+      </div>
+
+
+      <!-- Rating Section -->
+      <div class="d-flex justify-content-center align-items-center gap-4">
+        <img src="./src/assest/star_grp.png" />
+      </div>
+
+      <!-- 2 down Buttons -->
+
+      <div class="d-flex justify-content-center align-items-center gap-3">
+        <div class="blackbtn">
+          <div class="blackbtnInnersub">
+            <p class="availableTxt">Available in</p>
+            <h5 class="chromTxt">Chrome Web Store</h5>
+          </div>
+          <img src="./src/assest/chrome_r.png" alt="Chrome Icon" class="chromeIcon">
+        </div>
+        
+
+        <div class="greenbtn">
+          <div class="greenbtnInner">
+            <div class="greenbtnInnerSub">
+              <h5 class="freeTxt">Get a Free Trial Now!</h5>
+            </div>
+          </div>
+        </div>
+
+  </section>
+
+
+
+  <!------------------------------- 2nd Section ------------------------------->
+  <div class="container-fluid py-4 overflow-hidden" style="border-bottom: 1px solid #F1F1F1;margin: 22px;">
+    <div class="slider">
+      <div class="slider-track">
+        <div class="slider-card">
+          <img src="./src/assest/blue_Login.png" style="width: 45px;">
+          <div>
+            <h5 style="margin:0; font-size:15px;">
+              Access to <span style="font-weight: 600;">700M + Contacts</span>
+            </h5>
+          </div>
+        </div>
+        <div class="slider-card">
+          <img src="./src/assest/sec_2.png" style="width: 45px;">
+          <div>
+            <h5 style="margin:0; font-size:15px;">
+              <span style="font-weight: 600;">One click push</span> to CRM
+            </h5>
+          </div>
+        </div>
+        <div class="slider-card">
+          <img src="./src/assest/sec_3.png" style="width: 45px;">
+          <div>
+            <h5 style="margin:0; font-size:15px;">
+              <span style="font-weight: 600;">Custom Field</span> Mapping
+            </h5>
+          </div>
+        </div>
+        <div class="slider-card">
+          <img src="./src/assest/sec_4.png" style="width: 45px;">
+          <div>
+            <h5 style="margin:0; font-size:15px;">
+              Advanced <span style="font-weight: 600;">Waterfall Enrichment</span>
+            </h5>
+          </div>
+        </div>
+        <div class="slider-card">
+          <img src="./src/assest/c_2.png" style="width: 45px;">
+          <div>
+            <h5 style="margin:0; font-size:15px;">
+              Instant<span style="font-weight: 600;">Email Finder</span>
+            </h5>
+          </div>
+        </div>
+        <div class="slider-card">
+          <img src="./src/assest/tab4.png" style="width: 45px;">
+          <div>
+            <h5 style="margin:0; font-size:15px;">
+              Seamless <span style="font-weight: 600;">Deal Management</span>
+            </h5>
+          </div>
+        </div>
+        <div class="slider-card">
+          <img src="./src/assest/blue_Login.png" style="width: 45px;">
+          <div>
+            <h5 style="margin:0; font-size:15px;">
+              Access to <span style="font-weight: 600;">700M + Contacts</span>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!---------------------------------- SECTION 3rd Every Linkedin ------------------------>
+  <div class="freeLinedinDiv">
+    <h2>Every LinkedIn Prospector faces these daily challenges</h2>
+    <div class="freeCardWrapper">
+      <div class="freeCardContainer">
+        <img src="./src/assest/Frame _1.png" style="width: 100%; margin-bottom: 16px;">
+        <h5 class="withpuCrmtxt">Without LeadCRM</h5>
+
+
+        <ul class="withoutcrmUl">
+          <li class="withoutcrmLi">
+            <img src="./src/assest/cross1.png" alt="cross" style="width:14px; height:14px; margin-top:4px;">
+            <div>
+              <h3 class="withoutcrmHeading">
+                Manual Data Entry <span class="withoutcrmHeadingLabel">3+ Hours wasted daily</span>
+              </h3>
+              <p class="withoutcrmHeadingDis">
+                Copying LinkedIn contacts to CRM manually plus losing conversation history
+              </p>
+            </div>
+          </li>
+
+          <li class="withoutcrmLi">
+            <img src="./src/assest/cross1.png" alt="cross" style="width:14px; height:14px; margin-top:4px;">
+            <div>
+              <h3 class="withoutcrmHeading">
+                Incomplete Data <span class="withoutcrmHeadingLabel">60% Data Incomplete</span>
+              </h3>
+              <p class="withoutcrmHeadingDis">
+                LinkedIn profiles missing Email and Phones from 700M+ Database
+              </p>
+            </div>
+          </li>
+
+
+
+          <li class="withoutcrmLi">
+            <img src="./src/assest/cross1.png" alt="cross" class="withoutcrmCrossImg">
+            <div>
+              <h3 class="withoutcrmHeading">
+                No CRM Visibility <span class="withoutcrmHeadingLabel">Zero context available</span>
+              </h3>
+              <p class="withoutcrmHeadingDis">
+                Can’t see existing CRM contacts when browsing LinkedIn profiles </p>
+            </div>
+          </li>
+
+          <li class="withoutcrmLi">
+            <img src="./src/assest/cross1.png" alt="cross" class="withoutcrmCrossImg">
+            <div>
+              <h3 class="withoutcrmHeading">
+                Limited Productivity <span class="withoutcrmHeadingLabel">No smart assistance</span>
+              </h3>
+              <p class="withoutcrmHeadingDis">
+                Writing messages manually plus no AI assistant for reply, Invite or comments.
+              </p>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Divider with VS -->
+      <div class="DividerConatiner">
+        <div class="DividerConatinergrey"></div>
+        <div class="DividerConatinervsTxt">VS</div>
+      </div>
+
+      
+      <div class="withCrmCardDiv">
+        <img src="./src/assest/Frame _2.png" style="width: 100%; margin-bottom: 16px;">
+        <h4 style="margin: 0 0 8px 0; color: #097737;">With LeadCRM
+          <img src="./src/assest/lead_crm2.png" />
+          <span class="greenLabel">4+ Hours/day Saved</span>
+        </h4>
+
+
+        <ul class="withCrmCardul">
+          <li class="withCrmCardli">
+            <img src="./src/assest/c_3.png" alt="cross" class="withCrmCardLiImg">
+            <div>
+              <h3 style="margin:0 0 6px 0; font-size:16px;">
+                Complete Bi-Directional Sync
+              </h3>
+              <p style="margin:0; font-size:14px; color:#555;">
+                Automatically sync contacts, messages, and notes between LinkedIn and your CRM in real time.
+              </p>
+            </div>
+          </li>
+
+          <li class="withCrmCardli">
+            <img src="./src/assest/blue_Login.png" alt="cross" class="withCrmCardLiImg">
+            <div>
+              <h3 class="withCrmCardLiImgh3">
+                700M+ Contacts + Enrichment
+              </h3>
+              <p style="margin:0; font-size:14px; color:#555;">
+                Get verified emails and phone numbers from a vast global database.
+              </p>
+            </div>
+          </li>
+
+
+          <li class="withCrmCardli">
+            <img src="./src/assest/c_2.png" alt="cross" class="withCrmCardLiImg">
+
+            <div>
+              <h3 class="withCrmCardLiImgh3">
+                CRM Overlay on LinkedIn
+              </h3>
+              <p class="withCrmCardLiImgp">
+                See full CRM insights directly on LinkedIn profiles without switching tabs.
+              </p>
+            </div>
+          </li>
+
+          <li class="withCrmCardli">
+            <img src="./src/assest/c_4.png" alt="cross" class="withCrmCardLiImg">
+
+            <div>
+              <h3 class="withCrmCardLiImgh3">
+                AI Response + Templates + Bulk Exports
+              </h3>
+              <p class="withCrmCardLiImgp">
+                Get verified emails and phone numbers from a vast global database.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="leadBtnContant">
+      <div class="leadBtndiv">
+        <div class="leadBtn">
+          <div class="leadbtncontainer">
+            <h5 class="leadBtntxt">Start Using LeadCRM Now</h5>
+          </div>
+
+          
+
+        </div>
+        
+      </div>
+      <img src="./src/assest/save_hr.png" class="saveImg" />
+
+    </div>
+
+
+
+  </div>
+
+
+    <!---------------------------------- 4th SECTION How Work --------------------------------->
+
+  <div class="container-fluid HowWorkDiv">
+    <div style="margin-bottom: 40px;">
+      <h4 style="font-weight: 600; font-family: Poppins;">How it Works</h4>
+      <p style="font-size: 14px; font-family: Poppins;">From setup to success in <span style="font-weight: 400; font-family: Poppins;">4 simple steps</span></p>
+    </div>
+
+    <div class="HowWorkCardWrapper" style="position: relative;">
+      <div class="card">
+        <h1 class="HowWorkCardWrapperh1">1</h1>
+        <h3 style="color: #000;">Install the Extension</h3>
+        <p class="HowWorkCardWrappertxt">Add LeadCRM to Chrome and connect your CRM in 2 minutes—secure and seamless.
+        </p>
+        <img src="./src/assest/work_1.png" />
+      </div>
+
+      <div class="card">
+        <h1 class="HowWorkCardWrapperh1">2</h1>
+        <h3 style="color: #000;">Browse LinkedIn</h3>
+        <p class="HowWorkCardWrappertxt">Use LinkedIn normally, our extension auto-captures data and reveals CRM
+          contacts instantly.</p>
+        <img src="./src/assest/work_2.png" />
+      </div>
+
+      <div class="card">
+        <h1 class="HowWorkCardWrapperh1">3</h1>
+        <h3 style="color: #000;">Get Enriched Data</h3>
+        <p class="HowWorkCardWrappertxt">Enrich profiles with verified emails, phones, and company data with
+          95%+ accuracy guaranteed.</p>
+        <img src="./src/assest/work_3.png" />
+      </div>
+
+      <div class="card">
+        <h1 class="HowWorkCardWrapperh1">4</h1>
+        <h3 style="color: #000;">Sync to CRM Instantly</h3>
+        <p class="HowWorkCardWrappertxt">Prospect data syncs to your CRM instantly with history, tracking, and AI
+          powered insights for better follow ups.</p>
+        <img src="./src/assest/word_4.png" />
+      </div>
+      <img src="./src/assest/Ball.png" alt="Corner" class="ballImg" />
+   
+   
+      <div class="tryBtnDiv">
+        <div class="tryBtnGreen">
+          <p class="tryBtnGreenTxt">Try LeadCRM Now</p>
+          <img src="./src/assest/arrow_r.png" alt="arrow" class="tryBtnArrow">
+        </div>
+      </div>
+      
+  </div>
+  </div>
+
+
+  <!------------------------------------ 5th Section Testimonial section --------------------->
+
+  <div class="container-fluid testimonialDiv">
+    <div class="testimonialDivLRbtn">
+      <div style="columns: md 6px;">
+        <h4>What people are saying about LeadCRM</h4>
+      </div>
+
+      <div style="columns: md 6px">
+        <a href="#" onclick="alert('Back clicked!')"><img src="./src/assest/back_btn.png"  class="iconImg2"/></a>
+        <a href="#" onclick="alert('Next clicked!')"><img src="./src/assest/next-btn.png" class="iconImg2" /></a>
+      </div>
+    </div>
+
+    <div class="testimonialCardsWrapper">
+      <!-- Card 1 -->
+      <div class="testimonialDivContainerHead">
+        <p>“Reliable Data Sync I’ve only had to refresh the extension a couple of times. The multi-contact enrichment is
+          still a huge plus, and support is very responsive.“</p>
+
+        <!-- Rating -->
+        <div id="rating1" class="star-rating testimonialDivRatingDiv" role="rating" data-rating="3">
+          <span class="star" data-value="1">&#9733;</span>
+          <span class="star" data-value="2">&#9733;</span>
+          <span class="star" data-value="3">&#9733;</span>
+          <span class="star" data-value="4">&#9733;</span>
+          <span class="star" data-value="5">&#9733;</span>
+        </div>
+
+
+        <!-- Profile at the bottom -->
+        <div class="testimonialProfileDiv">
+          <img src="./src/assest/Avt_1.png" alt="Profile Photo" class="testimonialProfileImg">
+          <div>
+            <p class="testimonialProfileImgTxt">David Fincher</p>
+            <p class="testimonialProfileImgTxt1">On Capterra</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Card 2 -->
+      <div class="testimonialDivContainerHead">
+
+
+        <p>My experience with LeadCRM has been excellent. It has streamlined my workflow, improved lead tracking, and
+          made follow-ups more efficient. The responsive customer support is a big plus. Highly recommend it for
+          reliable lead management!”</p>
+
+        <!-- Rating -->
+        <div id="rating1" class="star-rating testimonialDivRatingDiv" role="rating" data-rating="3"
+          style="margin-bottom: 15px; color:#090F4E; font-size:18px;">
+          <span class="star" data-value="1">&#9733;</span>
+          <span class="star" data-value="2">&#9733;</span>
+          <span class="star" data-value="3">&#9733;</span>
+          <span class="star" data-value="4">&#9733;</span>
+          <span class="star" data-value="5">&#9733;</span>
+        </div>
+        <!-- Profile at the bottom -->
+        <div class="testimonialProfileDiv">
+          <img src="./src/assest/Avt_2.png" alt="Profile Photo" class="testimonialProfileImg">
+          <div>
+            <p class="testimonialProfileImgTxt">Lillian Williams</p>
+            <p class="testimonialProfileImgTxt1">On Capterra</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Card 3 -->
+      <div class="testimonialDivContainerHead">
+        <p>“Reliable Data Sync I’ve only had to refresh the extension a couple of times. The multi-contact enrichment is
+          still a huge plus, and support is very responsive.“</p>
+
+        <!-- Rating -->
+        <div id="rating1" class="star-rating testimonialDivRatingDiv" role="rating" data-rating="3"
+          style="margin-bottom: 15px; color:#090F4E; font-size:18px;">
+          <span class="star" data-value="1">&#9733;</span>
+          <span class="star" data-value="2">&#9733;</span>
+          <span class="star" data-value="3">&#9733;</span>
+          <span class="star" data-value="4">&#9733;</span>
+          <span class="star" data-value="5">&#9733;</span>
+        </div>
+
+        <!-- Profile at the bottom -->
+        <div class="testimonialProfileDiv">
+          <img src="./src/assest/Avt_3.png" alt="Profile Photo" class="testimonialProfileImg">
+          <div>
+            <p class="testimonialProfileImgTxt">Michael</p>
+            <p class="testimonialProfileImgTxt1">On Capterra</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!------------------------------------ 6th Sectionsales solution -------------------------------------->
+
+  <div class="container-fluid salesConatiner">
+    <img src="./src/assest/Cartoon.png" class="salesConatinerImg">
+    <div class="salesConatinerDiv">
+      <h3>Complete LinkedIn Sales Solutions</h3>
+      <p style="color: #4D4D4D; font-size: 13px;">Everything you need for professional LinkedIn prospecting</p>
+    </div>
+  </div>
+
+  <!-- Tab buttons -->
+  <div class="container-fluid" style="padding: 10px 12px;">
+    <div class="tab-buttons">
+      <button class="tab-btn active" data-tab="tab1">
+        <img src="./src/assest/tab1.png" alt="Icon 1" class="tabImg">
+        CRM Data Enrichment
+      </button>
+      <button class="tab-btn" data-tab="tab2">
+        <img src="./src/assest/tab2.png" alt="Icon 2" class="tabImg">
+        CRM Data Sync
+      </button>
+      <button class="tab-btn" data-tab="tab3">
+        <img src="./src/assest/tab3.png" alt="Icon 3" class="tabImg">
+        Bulk Export & Enrichment
+      </button>
+      <button class="tab-btn" data-tab="tab4">
+        <img src="./src/assest/tab4.png" alt="Icon 4" class="tabImg">
+        AI Productivity
+      </button>
+    </div>
+  </div>
+
+  <!-- Tab contents -->
+  <div class="container-fluid">
+    <h6 style="margin-left: 40px;color: #4D4D4D;">It’s hard to find the accurate contact data for every prospects by <span
+        style="color: #FF4C51;font-size:10px; background-color: #FFDCD4;padding: 3px 5px;border-radius: 7px;">Incomplete
+        Data</span></h6>
+    <div id="tab1" class="tab-content active">
+      <div class="tabcard">
+        <h5 style="font-weight: 600;">Here is how LeadCRM tackles that situation.</h5>
+        <h6 style="color: #097737; font-weight: 600;">Try LeadCRM Data Enrichment ></h6>
+        <div class="card-wrapper">
+
+          <div class="cardone">
+            <div class="card-top">
+              <img src="./src/assest/mail.png" class="icon" />
+              <h6>Verified Email & Phone</h6>
+            </div>
+            <!-- Bottom full-width image -->
+            <div class="card-bottom">
+              <img src="./src/assest/email_v.png" />
+            </div>
+          </div>
+
+          <div class="cardone">
+            <!-- Top inline section -->
+            <div class="card-top">
+              <img src="./src/assest/Search.png" class="icon" />
+              <h6>40+ Search Filters</h6>
+            </div>
+
+            <!-- Bottom full-width image -->
+            <div class="card-bottom">
+              <img src="./src/assest/filter_f.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabcard">
+        <h5>If it does not works for you ! try our <span style="color: #097737; font-weight: 600;">Advanced Waterfall Enrichment ></span>
+        </h5>
+        <div class="card-wrapper">
+          <div class="cardtwo">
+
+            <div class="card-top">
+              <img src="./src/assest/card2.webp" class="icon" />
+              <h6>Verified Email & Phone</h6>
+            </div>
+            <div class="card-bottom">
+              <img src="./src/assest/card2.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div id="tab2" class="tab-content">
+      <div class="tabcard" style="background-color: #9bebf0;">
+        <h5 style="font-weight: 600;">Here is how LeadCRM tackles that situation.</h5>
+        <h6 style="color: #097737; font-weight: 600;">Try LeadCRM Data Enrichment ></h6>
+        <div class="card-wrapper">
+
+          <div class="cardone">
+            <div class="card-top">
+              <img src="./src/assest/mail.png" class="icon" />
+              <h6>Verified Email & Phone</h6>
+            </div>
+            <!-- Bottom full-width image -->
+            <div class="card-bottom">
+              <img src="./src/assest/email_v.png" />
+            </div>
+          </div>
+
+          <div class="cardone">
+            <!-- Top inline section -->
+            <div class="card-top">
+              <img src="./src/assest/Search.png" class="icon" />
+              <h6>40+ Search Filters</h6>
+            </div>
+
+            <!-- Bottom full-width image -->
+            <div class="card-bottom">
+              <img src="./src/assest/filter_f.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabcard" style="background-color: #9bebf0;">
+        <h5>If it does not works for you ! try our <span style="color: #097737; font-weight: 600;">Advanced Waterfall Enrichment ></span>
+        </h5>
+        <div class="card-wrapper">
+          <div class="cardtwo">
+
+            <div class="card-top">
+              <img src="./src/assest/card2.webp" class="icon" />
+              <h6>Verified Email & Phone</h6>
+            </div>
+            <div class="card-bottom">
+              <img src="./src/assest/card2.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div id="tab3" class="tab-content" >
+      <div class="tabcard" style="background-color: #2D96BC;" >
+        <h5 style="font-weight: 600;">Enrich & Export 250 Profiles in Just 60 Seconds. </h5>
+        <h6 style="color: #097737; font-weight: 600;">Try LeadCRM Data Enrichment ></h6>
+        <div class="card-wrapper">
+
+          <div class="cardone" >
+            <div class="card-top">
+              <img src="./src/assest/mail.png" class="icon" />
+              <h6>Verified Email & Phone</h6>
+            </div>
+            <!-- Bottom full-width image -->
+            <div class="card-bottom">
+              <img src="./src/assest/email_v.png" />
+            </div>
+          </div>
+
+          <div class="cardone">
+            <!-- Top inline section -->
+            <div class="card-top">
+              <img src="./src/assest/Search.png" class="icon" />
+              <h6>Export & enrich profiles to the CRM or G-Sheet</h6>
+            </div>
+
+            <!-- Bottom full-width image -->
+            <div class="card-bottom">
+              <img src="./src/assest/filter_f.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabcard" style="background-color: #2D96BC;">
+        <h5>If it does not works for you ! try our <span style="color: #097737; font-weight: 600;">Advanced Waterfall Enrichment ></span>
+        </h5>
+        <div class="card-wrapper">
+          <div class="cardtwo">
+
+            <div class="card-top">
+              <img src="./src/assest/card2.webp" class="icon" />
+              <h6>Verified Email & Phone</h6>
+            </div>
+            <div class="card-bottom">
+              <img src="./src/assest/card2.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div id="tab4" class="tab-content">
+      <div class="tabcard" style="background-color: #dbf48a;">
+        <h5 style="font-weight: 600;">Here is how LeadCRM tackles that situation.</h5>
+        <h6 style="color: #097737; font-weight: 600;">Try LeadCRM Data Enrichment ></h6>
+        <div class="card-wrapper">
+
+          <div class="cardone">
+            <div class="card-top">
+              <img src="./src/assest/mail.png" class="icon" />
+              <h6>Verified Email & Phone</h6>
+            </div>
+            <!-- Bottom full-width image -->
+            <div class="card-bottom">
+              <img src="./src/assest/email_v.png" />
+            </div>
+          </div>
+
+          <div class="cardone">
+            <!-- Top inline section -->
+            <div class="card-top">
+              <img src="./src/assest/Search.png" class="icon" />
+              <h6>40+ Search Filters</h6>
+            </div>
+
+            <!-- Bottom full-width image -->
+            <div class="card-bottom">
+              <img src="./src/assest/filter_f.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabcard" style="background-color: #dbf48a;">
+        <h5>If it does not works for you ! try our <span style="color: #097737; font-weight: 600;">Advanced Waterfall Enrichment ></span>
+        </h5>
+        <div class="card-wrapper">
+          <div class="cardtwo">
+
+            <div class="card-top">
+              <img src="./src/assest/card2.webp" class="icon" />
+              <h6>Verified Email & Phone</h6>
+            </div>
+            <div class="card-bottom">
+              <img src="./src/assest/card2.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ <!------------------------------------ 7th Our support ------------------ -->
+
+
+
+  <div class="dashboard-image-end">
+    <img src="./src/assest/thumb3.png" alt="Dashboard Image">
+  </div>
+
+  <div class="container text-center" style="position: relative;">
+    <h3>
+      Our Supported LeadCRM
+    </h3>
+    <p>
+      LeadCRM provides Native Integrations with popular CRM tools to make the most out of your LinkedIn prospecting.
+      <br>
+      We don’t want you to miss any revenue opportunity on the internet!
+    </p>
+    <img src="./src/assest/blog1.png" class="responsive-img" alt="LeadCRM Image" />
+    <div style="text-align: center; margin-top: 30px; padding-bottom: 20%;">
+      <div class="IntegrateCRM">
+        <p class="IntegrateCRMTxt">Lets Integrate your CRM Now!</p>
+      </div>
+    </div>
+  </div>
+
+
+
+<!------------------------------------ 8th Section Powerhouse content----------------- -->
+ 
+
+  <div class="container-fluid powerhouseContainer">
+    <h2 class="powerhouseTxt">Join Thousands of Professionals Using LeadCRM</h2>
+    <img src="./src/assest/hunt_banner.png" class="responsive-img" />
+    <div style="text-align: center; margin-top: 30px;">
+      <div class="IntegrateCRM">
+        <p class="powerhouseBtnTxt">Get Started Today</p>
+        <img src="./src/assest/arrow_r.png" alt="arrow" class="tryBtnArrow">
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- ---------------------- footer ----------------------- -->
+
+  <footer class="text-black pt-5 pb-4 site-footer" style="background: linear-gradient(90deg, #01B2D838, #01B2D838); margin-top: 20%;">
+    <div class="container-fluid text-md-start">
+      <div class="row">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+          <img src="./src/assest/Leadcrm Logo.png" />
+          <p>LeadCRM is LinkedIn integration tool for your CRM.</p>
+          <a href="#" class="social-icon me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-icon me-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="social-icon me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-icon me-3"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <!-- 2. Products -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-3">Integrations</h6>
+          <p><a href="#" class="text-black text-decoration-none">HubSpot</a></p>
+          <p><a href="#" class="text-black text-decoration-none">Salesforce</a></p>
+          <p><a href="#" class="text-black text-decoration-none">Pipedrive</a></p>
+          <p><a href="#" class="text-black text-decoration-none">Close.io <span
+                style="color: #002A06;font-size:10px; background-color: #BDFFC6;padding: 3px 5px;border-radius: 7px;">Coming
+                Soon</span></a></p>
+          <p><a href="#" class="text-black text-decoration-none">Insightly <span
+                style="color: #002A06;font-size:10px; background-color: #BDFFC6;padding: 3px 5px;border-radius: 7px;">Coming
+                Soon</span></a></p>
+        </div>
+
+        <!-- 3. Useful Links -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-3">Alternative</h6>
+          <p><a href="#" class="text-black text-decoration-none">Surfe VS LeadCRM</a></p>
+          <p><a href="#" class="text-black text-decoration-none">Linkmatch Alternative</a></p>
+        </div>
+
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-3">Legal</h6>
+          <p><a href="#" class="text-black text-decoration-none">Privacy Policy</a></p>
+          <p><a href="#" class="text-black text-decoration-none">Terms of Use</a></p>
+        </div>
+
+        <!-- 4. Contact -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-3">Contact us</h6>
+          <p><i class="bi bi-geo-alt-fill me-2"></i>support@leadcrm.io</p>
+          <p><i class="bi bi-envelope-fill me-2"></i>+1 231-538-7466</p>
+          <p><i class="bi bi-telephone-fill me-2"></i>Help Center</p>
+        </div>
+
+        <div class="dashboard-image-btn">
+          <div class="dashboard-text">
+            <p>Available in</p>
+            <p>Chrome</p>
+          </div>
+          <img src="./src/assest/Border.png" alt="Dashboard Image">
+        </div>
+        
+        
+
+      </div>
+      <p style="padding-top:16px; color: #54595F;">Disclaimer : LeadCRM is not endorsed or certified by LinkedIn. All LinkedIn(tm) logos and trademarks displayed
+        on this tool are property of LinkedIn. LeadCRM is distributed AS IS. Your use of LeadCRM is at your own risk.
+      </p>
+    </div>
+
+    <div class="text-center pt-3 mt-3 border-top border-secondary" style="color: #54595F;">
+      &copy; Copyright © 2025 LeadCRM. All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./src/Js/script.js"></script>
+
+</body>
+
+</html>
