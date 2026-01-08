@@ -17,10 +17,12 @@ html {
 }
 
 .heroContainer {
-  height: 100vh;
+  /* height: 100vh; */
   background-size: cover;
   background-position: center;
   position: relative;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 .heroContainerImg {
   position: absolute;
@@ -818,10 +820,25 @@ footer a:hover {
 
 .salesConatiner {
   position: relative;
-  padding-top: 100px;
+  padding-top: 20%;
   height: 100px;
   background-color: #fff;
 }
+
+/* Tablet */
+@media (max-width: 768px) {
+  .salesContainer {
+    padding-top: 30%;      
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .salesContainer {
+    padding-top: 40%;      
+  }
+}
+
 .salesConatinerImg {
   position: absolute;
   left: 0;
@@ -837,6 +854,8 @@ footer a:hover {
   transform: translate(-50%, -50%);
   margin: 0;
   text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .tabImg {
   height: 30px;
